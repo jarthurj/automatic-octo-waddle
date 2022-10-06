@@ -1,0 +1,47 @@
+#container{
+	padding: 10px;
+	background-color: grey;
+	width: 970px;
+	margin: 0 auto;
+}
+#main{
+	display: flex;
+	width: 960;
+}
+#header{
+	background-color: red;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#about{
+	background-color: navy;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 5px;
+	flex: 4;
+}
+#nav{
+	background-color: purple;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 5px;
+	flex: 1;
+	height: 200px;
+}
+
+#footer{
+	background-color: seagreen;
+	border-radius: 15px;
+	padding: 10px;
+}
+p{
+	color: white;
+}
+span{
+	color: purple;
+}
+
+a{
+	color: lightblue;
+}
