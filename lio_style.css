@@ -1,0 +1,39 @@
+body{
+	background-color: black;
+}
+header{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+#container{
+	width: 1000px;
+	background: rgb(208,174,238);
+	background: radial-gradient(circle, rgba(208,174,238,1) 0%, rgba(0,0,0,1) 100%);
+	margin: 0 auto;
+}
+#top-cont{
+	
+}
+#face{
+	width: 400px;
+	border: 5px grey solid;
+	display: inline-block;
+}
+
+#about{
+	width: 425px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: lightgrey;
+
+}
+.sub-head{
+	background-image: linear-gradient(grey, darkgrey, grey);
+	color: white;
+	font-weight: bolder;
+	vertical-align: top;
+	margin: 0;
+	padding: 5px;
+}
