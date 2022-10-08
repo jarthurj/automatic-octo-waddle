@@ -2,6 +2,14 @@ body{
 	background-color: black;
 	font-family: sans-serif;
 }
+
+
+#container{
+	width: 1000px;
+	background: radial-gradient(circle, rgba(208,174,238,1) 0%, rgba(0,0,0,1) 100%);
+	margin: 0 auto;
+}
+
 header{
 	background-color: white;
 	display: flex;
@@ -10,12 +18,6 @@ header{
 	align-items: center;
 }
 
-
-#container{
-	width: 1000px;
-	background: radial-gradient(circle, rgba(208,174,238,1) 0%, rgba(0,0,0,1) 100%);
-	margin: 0 auto;
-}
 #top-cont{
 	display: flex;
 	justify-content: space-between;
