@@ -14,20 +14,26 @@ header{
 	margin: 0 auto;
 }
 #top-cont{
-	
+	margin: 0 auto;
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
 }
 #face{
 	width: 400px;
 	border: 5px grey solid;
-	display: inline-block;
+/*	display: inline-block;*/
 }
 
 #about{
 	width: 425px;
-	display: inline-block;
-	vertical-align: top;
+/*	display: inline-block;
+	vertical-align: top;*/
 	background-color: lightgrey;
-
+}
+#bot-cont{
+	display: flex;
+	justify-content: space-between;
 }
 .sub-head{
 	background-image: linear-gradient(grey, darkgrey, grey);
@@ -36,4 +42,7 @@ header{
 	vertical-align: top;
 	margin: 0;
 	padding: 5px;
+}
+.col{
+	width: 280px;
 }
