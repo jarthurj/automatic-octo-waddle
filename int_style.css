@@ -1,0 +1,100 @@
+*{
+	outline: 1px red solid;
+}
+html{
+	font-family: sans-serif;
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+#logo{
+	width: 99%;
+}
+#logo h1{
+	display: inline-block;
+	margin-bottom: 15px;
+	vertical-align: bottom;
+
+}
+
+#logo img{
+	width: 100px;
+	height: auto;
+}
+
+#container h2{
+	background: linear-gradient(180deg, rgba(186,186,252,1) 0%, rgba(255,255,255,1) 50%, rgba(186,186,252,1) 100%);
+	font-size: 30px;
+	padding: 15px 0;
+	margin-top: -20px;
+}
+
+#main{
+	display: flex;
+	margin-top: 20px;
+	width: 100%;
+	background: linear-gradient(180deg, rgba(218,218,218,1) 15%, rgba(255,255,255,1) 100%);
+}
+
+#main-cont{
+	width: 700px;
+
+}
+#left-bar{
+	width: 300px;
+}
+
+#left-bar div{
+	background-image: url("../images/ad_background.png");
+	width: 300px;
+}
+#left-bar div p{
+	text-align: center;
+	font-size: 26px;
+	color: white;
+	width: 200px;
+	margin: 0 auto;
+}
+
+#left-bar button{
+	display: block;
+	margin: 0 auto;
+}
+
+#left-bar img{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+#home-phone{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#dns img{
+	width: 50px;
+
+}
+
+#dns > *, #phone-numbers > *{
+	display: inline-block;
+}
+
+#dns p{
+	vertical-align: top;
+}
+
+#phone-numbers img{
+	width: 100px;
+	height: auto;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+#cs{
+	width: 200px;
+}
