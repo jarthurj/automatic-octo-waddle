@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*outline: 1px red solid;*/
+	font-family: sans-serif;
+}
+
+#container{
+
+}
+#gp{
+	margin-bottom: 5px;
+	height: 35px;
+}
+#container > div{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 75px;
+}
+
+
+#block{
+	text-align: center;
+	width: 75px;
+	height: 75px;
+	background-color: lightblue;
+	outline: 1px solid black;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#block p{
+	color: darkblue;
+}
+
+#symbol{
+	font-weight: bold;
+}
+
+.col-label{
+	margin-bottom: 5px;
+	height: 35px;
+}
+.row-label{
+	padding-top: 28.5px;
+	padding-bottom: 28.5px;
+	height: 18px;
+	margin-bottom: 5px;
+}
