@@ -4,23 +4,28 @@
  padding: 0px;
 }
 #wrapper{
- width: 950px;
+ width: 80%;
  background-color: silver;
  margin: 0px auto;
  padding: 20px;
 }
 #header{
     display: block;
- min-height: 150px;
- background-color: green;
- margin-bottom: 20px;
+    min-height: 150px;
+    background-color: green;
+    margin-bottom: 20px;
 }
-#navigation{
+
+#main-row{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+/*#navigation{
     display: inline-block;
     vertical-align: top;
- min-height: 300px;
- width: 200px;
- background-color: blue;
+    min-height: 300px;
+    width: 200px;
+    background-color: blue;
 }
 #main_content{
     display: inline-block;
@@ -45,5 +50,69 @@
  background-color: purple;
  margin-left: 10px;
  margin-top: 20px;
+}*/
+
+
+#navigation{
+    background-color: blue;
+    height: 400px;
 }
 
+#main{
+    background-color: red;
+    height: 400px;
+}
+.subcontents{
+    background-color: yellow;
+    height: 200px;
+}
+#advertisement{
+    background-color: purple;
+    height: 120px;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 480px){
+    #navigation{
+        display: none;
+    }
+    #main-row{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #subrow{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1px;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    #navigation{
+        display: none;
+    }
+    #main-row{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #subrow{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #navigation{
+        display: block;
+    }
+    #main-row{
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    #subrow{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 1px;
+    }
+}
